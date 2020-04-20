@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppBotReservation.MainPage">
+
+    <StackLayout WidthRequest="300" HeightRequest="500">
+        <Image Source="profile.png" WidthRequest="200" HeightRequest="200"></Image>
+        <Label Text="Live Chat Bot LUIS" FontSize="20"></Label>
+        <WebView x:Name="webview" Source="https://webchat.botframework.com/embed/reservationcabana?s=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" WidthRequest="300" HeightRequest=" 300"></WebView>
+    </StackLayout>
+     <!--This is just a sample script.
+    Paste your real code (javascript or HTML) here. 
+    if ('this_is'==/an_example/){of_beautifier();}else{var a=b?(c%d):e[f];}
+    -->
+
+</ContentPage>
